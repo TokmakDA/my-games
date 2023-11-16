@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-games/static/css/main.523b793c.css",
-    "main.js": "/my-games/static/js/main.a63657a7.js",
+    "main.css": "/my-games/static/css/main.dd7f4f17.css",
+    "main.js": "/my-games/static/js/main.931661db.js",
     "static/media/bg-desktop-1.png": "/my-games/static/media/bg-desktop-1.58797df34f1d9602cc6b.png",
     "static/media/bg-image-1.png": "/my-games/static/media/bg-image-1.d7ddd51b45847a5bedb4.png",
     "static/media/bg-mobile-1.png": "/my-games/static/media/bg-mobile-1.535909cfcc3dd436829d.png",
@@ -106,6 +106,7 @@
     "static/media/simpsons-card-img-62.png": "/my-games/static/media/simpsons-card-img-62.36d525f656d2c44c6531.png",
     "static/media/simpsons-card-img-67.png": "/my-games/static/media/simpsons-card-img-67.7c9cf6959aa0bc8af760.png",
     "static/media/simpsons-card-img-54.png": "/my-games/static/media/simpsons-card-img-54.22112c1f00fcd256b769.png",
+    "static/media/simpsons-vicrory.png": "/my-games/static/media/simpsons-vicrory.236b16a7bc445279cfbe.png",
     "static/media/simpsons-card-img-32.png": "/my-games/static/media/simpsons-card-img-32.f5fad642db16b7814b48.png",
     "static/media/simpsons-card-img-83.png": "/my-games/static/media/simpsons-card-img-83.5de43e3f81aae71f91cb.png",
     "static/media/simpsons-card-img-60.png": "/my-games/static/media/simpsons-card-img-60.bd2acafdcd6bd9624948.png",
@@ -131,13 +132,14 @@
     "static/media/simpsons-card-img-51.png": "/my-games/static/media/simpsons-card-img-51.2b39416f637db2778bb0.png",
     "static/media/simpsons-card-img-81.png": "/my-games/static/media/simpsons-card-img-81.954616d79a21fec81dec.png",
     "static/media/simpsons-card-img-86.png": "/my-games/static/media/simpsons-card-img-86.605e0e19731b0ddfcb51.png",
+    "static/media/closeIcon.svg": "/my-games/static/media/closeIcon.3f521bea2a7d8ad8a81d1222ce056a8e.svg",
     "static/media/telegram.svg": "/my-games/static/media/telegram.37709ed6aae0b22b352a589d49cd8ebe.svg",
     "index.html": "/my-games/index.html",
-    "main.523b793c.css.map": "/my-games/static/css/main.523b793c.css.map",
-    "main.a63657a7.js.map": "/my-games/static/js/main.a63657a7.js.map"
+    "main.dd7f4f17.css.map": "/my-games/static/css/main.dd7f4f17.css.map",
+    "main.931661db.js.map": "/my-games/static/js/main.931661db.js.map"
   },
   "entrypoints": [
-    "static/css/main.523b793c.css",
-    "static/js/main.a63657a7.js"
+    "static/css/main.dd7f4f17.css",
+    "static/js/main.931661db.js"
   ]
 }
