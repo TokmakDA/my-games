@@ -1,4 +1,3 @@
-
 function importAll(r) {
   let imagesArr = {};
   r.keys().forEach((item, index) => {
@@ -16,10 +15,11 @@ function importAll(r) {
   const front = filterImage('simpsons-card-img');
   const shirt = filterImage('simpsons-card-shirt');
   const bgImg = filterImage('bg-image');
+  const bgDesctop = filterImage('bg-desktop');
+  const bgMobile = filterImage('bg-mobile');
 
-  return { imagesArr, front, shirt, bgImg };
+  return { imagesArr, front, shirt, bgImg, bgDesctop, bgMobile };
 }
 export const simpsons = importAll(
   require.context('../images/simpsons/', false, /\.(png|jpe?g|svg)$/),
 );
-
