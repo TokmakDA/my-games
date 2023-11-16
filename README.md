@@ -25,15 +25,12 @@
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="350" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FLjIudFHo2lSvS8UwvTcKgk%2FMyGames%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DdTY2RznbnuBHwi6Y-1" allowfullscreen></iframe>
 
 ## Запуск проекта
-
-### Установить зависимости: `npm i`
-
-### Запустить локально: `npm start`
+- Установить зависимости: `npm i`
+- Запустить локально: `npm start`
 
 ### P.S.
-
-Данный проект разработан после участия в хакатоне["Благотворительный Хакатон Для Джунов"](https://jun-hackathon-2023.vercel.app/)
-[Репозиторий с заданиями](https://github.com/nat-davydova/charity-hackaton-cases)
-В планаха так же выполнение всех заданий.
+Данный проект разработан после участия в хакатоне <br />["Благотворительный Хакатон Для Джунов"](https://jun-hackathon-2023.vercel.app/) <br />
+[Репозиторий с заданиями](https://github.com/nat-davydova/charity-hackaton-cases) <br />
+В планаха выполнение всех заданий.
 
 #### 2023 TokmakDA
