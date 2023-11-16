@@ -1,26 +1,26 @@
 .header {
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
-  height: 100px;
+  height: 50px;
   width: 100%;
   background: rgba(0, 0, 0, 0.2);
-  padding: 23px 0;
+  padding: 10px 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .header {
     height: 70px;
   }
-}
+} */
 /* @media screen and (max-width: 992px) {
   .header {
     height: 70px;
   }
 } */
-@media screen and (max-width: 720px) {
+/* @media screen and (max-width: 720px) {
   .header {
     height: 55px;
   }
@@ -31,4 +31,4 @@
   }
 }
 @media screen and (max-width: 400px) {
-}
+} */

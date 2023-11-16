@@ -1,7 +1,6 @@
 .page {
   display: flex;
   background: #fdfdfd;
-  /* max-width: 1440px; */
   height: 100vh;
   background-image: url(../images/simpsons/bg-image-0.png);
   background-position: top center;
@@ -17,7 +16,7 @@
   bottom: 0;
   content: '';
   width: 100%;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(2px);
   z-index: 0;
 }
 
@@ -26,7 +25,6 @@
   display: flex;
   align-items: start;
   justify-content: center;
-  /* gap: 90px; */
   margin: 0 auto;
   padding: 0;
   z-index: 1;
