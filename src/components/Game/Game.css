@@ -1,9 +1,9 @@
 .game {
   display: grid;
-  padding: 25px 70px 50px;
+  padding: 10px 70px 50px;
   flex-direction: column;
   align-items: center;
-  row-gap: 25px;
+  row-gap: 20px;
   column-gap: 90px;
   justify-content: center;
   justify-items: center;
@@ -13,7 +13,7 @@
   padding: 0;
   color: #000;
   text-align: center;
-  font-size: 60px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -193,13 +193,13 @@
 
 @media screen and (max-width: 1200px) {
   .game {
-    padding: 25px 30px 50px;
+    padding: 10px 30px 50px;
   }
   .game-board {
     gap: 15px;
   }
   .game__title {
-    font-size: 44px;
+    font-size: 40px;
   }
   .statistics {
     max-width: 300px;
@@ -227,7 +227,7 @@
     gap: 20px;
   }
   .game__title {
-    font-size: 44px;
+    font-size: 32px;
     grid-column: 1;
   }
   .statistics {
@@ -237,7 +237,7 @@
     border-radius: 16px;
   }
   .statistics__title {
-    font-size: 25px;
+    font-size: 24px;
   }
   .statistics__list {
     font-size: 20px;

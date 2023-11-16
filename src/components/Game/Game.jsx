@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 import { simpsons } from '../../utils/image-import';
 import './Game.css';
+import Modal from '../Modal/Modal';
 
 const Game = () => {
   const { front, shirt } = simpsons;
@@ -11,12 +12,18 @@ const Game = () => {
   // const [isLockClick, setLockClick] = useState(false);
   const [moves, setMoves] = useState(0);
   const [win, setWin] = useState(false);
-  const [residue, setResidue] = useState(0);
+  const [residue, setResidue] = useState(null);
   // Стейты таймера
   const [isActiveTime, setActiveTime] = useState(false);
   const [isStopTime, setStopTime] = useState(true);
   const [time, setTime] = useState(0);
   const [isClickCard, setClickCard] = useState(false);
+
+  // стейт модалки
+  const [isOpen, setOpen] = useState(false);
+  const handleOnClose = () => {
+    setOpen(false);
+  };
 
   // Сгенерировать карточки
   const getRandomCards = (arr, count) => {
@@ -68,6 +75,7 @@ const Game = () => {
     setActiveTime(false);
     setTime(0);
     setClickCard(false);
+    handleOnClose();
   };
 
   // Первичный запуск
@@ -97,6 +105,9 @@ const Game = () => {
     if (residue === 0) {
       handleStopTime();
       setWin(true);
+      setTimeout(() => {
+        setOpen(true);
+      }, 500);
     }
   }, [residue]);
 
@@ -180,6 +191,16 @@ const Game = () => {
           Начать сначала
         </button>
       </div>
+      {isOpen && (
+        <Modal
+          handleReset={handleReset}
+          moves={moves}
+          time={time}
+          isOpen={isOpen}
+          setOpen={setOpen}
+          onClose={handleOnClose}
+        />
+      )}
     </section>
   );
 };
