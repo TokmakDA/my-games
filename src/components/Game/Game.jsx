@@ -38,7 +38,7 @@ const Game = () => {
     if (isActiveTime && isStopTime === false) {
       interval = setInterval(() => {
         setTime((time) => time + 1);
-      }, 1000);
+      }, 800);
     } else {
       clearInterval(interval);
     }
