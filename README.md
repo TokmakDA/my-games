@@ -22,7 +22,7 @@
 - ReactJS
 <!-- - Redux -->
 - [Figma](https://www.figma.com/file/LjIudFHo2lSvS8UwvTcKgk/MyGames?type=design&node-id=0%3A1&mode=design&t=dTY2RznbnuBHwi6Y-1)
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="350" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FLjIudFHo2lSvS8UwvTcKgk%2FMyGames%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DdTY2RznbnuBHwi6Y-1" allowfullscreen></iframe>
+<!-- <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="350" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FLjIudFHo2lSvS8UwvTcKgk%2FMyGames%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DdTY2RznbnuBHwi6Y-1" allowfullscreen></iframe> -->
 
 ## Запуск проекта
 - Установить зависимости: `npm i`
